@@ -1,0 +1,10 @@
+#editor-space, #line-space {
+    height: 75vh;
+    outline: none;
+    resize: none;
+    line-height: 1;
+}
+
+#line-space {
+    width: 3rem;
+}
