@@ -1,4 +1,13 @@
+
+.editor {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+
+}
 #editor-space, #line-space {
+    width: 100%;
     height: 75vh;
     outline: none;
     resize: none;
@@ -6,5 +15,5 @@
 }
 
 #line-space {
-    width: 3rem;
+    width: 2rem;
 }
