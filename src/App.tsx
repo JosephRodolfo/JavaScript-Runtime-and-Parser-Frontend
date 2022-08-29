@@ -1,13 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Editor from './Editor';
-import ParseDisplay from './ParseDisplay';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import Editor from "./Editor";
+import TabBar from "./TabBar";
+import Header from "./Header";
 
 function App() {
+  const [currentTab, setCurrentTab] = useState(0);
+  useEffect(() => {}, []);
+
+  const handleTabChange = () => {};
   return (
     <div className="App">
-   <Editor/>
+      <Header />
+      <TabBar passUpCurrentTab={handleTabChange} />
+      <Editor currentTab={currentTab} />
     </div>
   );
 }

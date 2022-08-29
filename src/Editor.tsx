@@ -6,7 +6,11 @@ import {
 import "./Editor.css";
 import ParseDisplay from "./ParseDisplay";
 
-function Editor() {
+interface Props {
+  currentTab: number
+}
+
+function Editor(props: Props) {
   const ref = useRef<HTMLTextAreaElement>(null);
   const editorRef = useRef<HTMLTextAreaElement>(null);
   const [lines, setLinesCount] = useState("1\n");

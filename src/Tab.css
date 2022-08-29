@@ -1,0 +1,22 @@
+.tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
+  height: 100%;
+  /* border: 1px black solid; */
+  margin-right: 5px;
+}
+.tab p {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-active {
+    background-color: white;
+}
+
+.tab-inactive {
+    background-color: lightgrey;
+}

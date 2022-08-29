@@ -2,4 +2,9 @@
     height: 100%;
     width: 5px;
     background-color: gray;
+
+}
+.parse-display-slider:hover {
+cursor: col-resize;
+    
 }

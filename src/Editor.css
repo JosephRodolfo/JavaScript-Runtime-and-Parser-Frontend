@@ -12,6 +12,11 @@
     outline: none;
     resize: none;
     line-height: 1;
+    border-top: none;
+}
+
+#editor-space {
+    border-left: none;
 }
 
 #line-space {

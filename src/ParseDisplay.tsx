@@ -24,7 +24,6 @@ function ParseDisplay(props: Props) {
 
   useEffect(() => {
     if (dragging) {
-      console.log(props.mouseEvent.clientX)
       const widthPercentage = props.mouseEvent.target.parentNode.clientWidth - props.mouseEvent.clientX;
       if (parseDisplaySpace!=undefined) {
         parseDisplaySpace.style.width = `${widthPercentage}px`;

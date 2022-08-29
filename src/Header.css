@@ -1,0 +1,13 @@
+.header {
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: max-content;
+}
+.header-title {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
